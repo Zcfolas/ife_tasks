@@ -1,6 +1,6 @@
 *{margin:0; padding:0;font-family: "微软雅黑";}
 #warpper{height: 1386px;width: 980px;background-color: #f1f1f1;margin: 0 auto;}
-.main{width: 892px;margin: 0 auto;}
+.main{width: 892px;margin: 0 auto;position: relative;}
 /*上标签*/
 .header{width: 892px;margin: 0 auto;border-bottom: 2px solid #938e8c;position: relative;}
 .header .logo p{background-color: #e65449;width: 110px;font-size: 12px;padding-top: 49px;
@@ -74,6 +74,8 @@
  }
 .center{
 	width: 641px;
+	overflow: hidden;
+
  }
  .center .whatw .what{
  	font-size: 16px;
@@ -111,11 +113,13 @@
 .center .whatw{
 	width: 200px;
 	float: left;
+
 }
 .center .whyw{
 	width: 200px;
 	float: left;
 	margin-left: 20px;
+
 }
 .center .howw{
 	width: 200px;
@@ -123,14 +127,13 @@
 }
 
 .bottom{
-	position: relative;top: 50px;
-	clear: both;
+	margin-top: 60px;
+	overflow: hidden;
 }
 .bottom .left {
 	width: 414px;
 	float: left;
-    clear: both;
-
+ 
 }
 .bottom .left h4{
 	font-size: 42px;font-family: "黑体";
@@ -174,7 +177,7 @@
 .bottom .right{
 	width: 458px;
 	float: right;
-
+    
 }
 .bottom .right .image_title{
 	width: 458px;
@@ -213,7 +216,7 @@
 	 position: relative;
 }
 .bottom .right_part1 ul{
-	list-style-image: url("///H|/TAB/image/sanjiao.png");
+	list-style-image: url("../image/sanjiao.png");
 }
 .bottom .right_part1 ul li{font-size: 16px;
 	color:#5a5b5b;
@@ -233,7 +236,7 @@
 	float: left;
 	position: absolute;
 	left: 0;bottom: 0;
-	clear: both;
+	
 }
 .bottom .right_part3 .o{
 	font-size: 110px;
@@ -246,12 +249,14 @@
     font-family: "黑体";
     color: white;
     line-height: 33px;
+
 }
 .bottom .right_part3 .hw{
 	font-size: 12px;
 	font-family: "黑体";
 	line-height: 15px;
 	color: white;
+
 }
 .bottom .right_part3 .o_b{
 	height: 87px;
@@ -260,6 +265,8 @@
 	margin-right: 10px;
 	float: right;
 	margin-top: 37px;	
+
+
 }
 .bottom .right_part2{
 	width: 178px;
@@ -289,4 +296,17 @@
 	position: absolute;
 	bottom: 5px;
 	right: 0px;
+}
+
+.footer{
+	width: 892px;
+	margin: 0 auto;
+	border-top: 1px solid #938e8c;
+    margin-top: 40px;
+    text-align: right;
+}
+.footer span{
+	font-size: 12px;
+	color:  #e65449;
+	text-align: right;
 }
