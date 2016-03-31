@@ -1,0 +1,230 @@
+*{margin:0;padding: 0; }
+.wrap{
+	min-width: 1280px;
+}
+ .header{
+          height: 60px;
+}
+.logo img{
+  width: 30px;height: 30px;
+  margin-top: 6px;margin-right: 5px;
+  
+}
+.logo{
+  float: left;
+  margin-left: 70px;
+  font-size: 30px;
+  color: #393a3a;
+  font-family: "黑体";
+  margin-top: 10px;
+}
+.nav{
+  float: right;
+  margin-right: 30px;
+}
+ .nav li{
+  float: left;
+  list-style: none;
+  height: 57px;width: 100px;
+  line-height: 65px;
+  text-align: center;
+  
+
+
+}
+.nav li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #6e6e6e;
+  font-family: "微软雅黑";
+  text-align: center;
+
+  display: block;
+  height: 57px;
+}
+#signin{ 
+    background-image: url("../image/header_1.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 18px 10px;
+
+  }
+  #signin a{
+        color: #ea6b60;
+  }
+
+  .nav li a:hover{
+    color: #ea6b60;
+    border-bottom: 3px solid #ea6b60;
+  }
+  .main .tonl{
+  	height: 690px;
+  	background-image: url("../image/title_1.png");
+  	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+  .main .mask{
+  	height: 690px;width: 100%;
+  	background-color: black;
+  	opacity: 0.4;
+}
+.tonl h1{
+	font-size: 60px;
+	font-family: "微软雅黑";
+	color: #f5f5f5;
+	position: absolute;
+	top: 227px;left: 114px;
+}
+.tonl p{
+    font-size: 21px;
+	font-family: "微软雅黑";
+	color: #f5f5f5;
+	position: absolute;
+	top: 308px;left: 124px;
+}
+.tonl input{
+	width: 330px;height: 65px;
+	background-color: #ea6b60;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #ffffff;
+	border: none;
+    position: absolute;
+    top: 430px;left: 124px;
+}
+.tonl-list{
+	height: 250px;
+	position: relative;
+}
+.icons{
+	height: 120px;
+}
+.icons div{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+}
+.tonl-text{
+	height: 50px;
+	color:#aaaaaa; 
+}
+.tonl-text div{
+	width: 24.8%;
+	float: left;
+    text-align: center;
+	border-right:2px solid #aaaaaa;
+}
+#tonl-text_4{
+	border: none;
+}
+.about_up{
+	height: 360px;
+	background-color: #ededec;
+	position: relative;
+
+	overflow: hidden;
+}
+.about_up img{
+	position: absolute;
+	margin:auto;
+	top: 85px; left: 0; right: 0;  
+}
+.about_up p{
+	font-family: "微软雅黑";
+	font-size: 54px;
+	color:#a0a1a1;
+	text-align: center;	
+	margin-top: 224px;
+
+}
+.about_center{
+	height: 340px;
+	background-image: url("../image/area.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: "微软雅黑";
+	color: #ffffff;
+
+	position: relative;
+}
+.mask2{
+	background-color: #CE6D39;
+	opacity: 0.3;
+	height: 340px;
+}
+.about_center h3{
+	text-align: center;
+	font-size: 21px;
+
+	margin: auto;
+	position: absolute;
+	top: 50px;left: 0;right: 0;
+}
+.about_center hr{
+	width: 30px;
+	border: 2px solid #ffffff;
+
+	margin: auto;
+	position: absolute;
+	top: 85px;left: 0;right: 0;
+}
+.about_center p{
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 105px;left: 0;right: 0;
+}
+.about_center input{
+	width: 235px;height: 35px;
+	font-family: "微软雅黑";font-size: 15px;
+
+    border: none;
+}
+.about_center .sel2{
+	border: 1px solid #be4e48;
+}
+.about_center .sel1,.sel2,.sel3{
+	background-image: url("../image/input.png");
+	background-repeat: no-repeat;
+	background-position: 210px center;
+	margin-right: 30px;
+}
+.about_center ul{
+	width: 235px;
+	background-color: #e4e3e5;
+	font-size: 15px;
+	color: #787879;
+	border: 1px solid #be4e48;
+	border-top: none;
+}    
+.about_center ul li{
+	height: 35px;
+	padding-left: 30px;
+	line-height: 35px;
+    list-style: none;
+}
+.about_center ul li:hover{
+    background-color: #be4e48;
+	color: #ffffff;
+	background-image: url("../image/check.png");
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.about_center .sub{
+	background-color: #bf4f48;
+	color: white;
+}
+.about_center .inputs{
+	position: absolute;
+	left: 50%;
+    left: 50%;
+    margin-left: -514px;
+	top: 170px; 
+	
+}
+.about_center ul{
+	position: absolute;
+	top: 36px;left: 270px;
+}
