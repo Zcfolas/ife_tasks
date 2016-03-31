@@ -144,7 +144,7 @@
 	background-image: url("../image/area.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-    font-family: "微软雅黑";
+        font-family: "微软雅黑";
 	color: #ffffff;
 
 	position: relative;
@@ -203,7 +203,7 @@
 	height: 35px;
 	padding-left: 30px;
 	line-height: 35px;
-    list-style: none;
+        list-style: none;
 }
 .about_center ul li:hover{
     background-color: #be4e48;
@@ -219,8 +219,8 @@
 .about_center .inputs{
 	position: absolute;
 	left: 50%;
-    left: 50%;
-    margin-left: -514px;
+        left: 50%;
+        margin-left: -514px;
 	top: 170px; 
 	
 }
@@ -231,7 +231,7 @@
 .about_bottom{
 	height: 605px;
 	background-color: #f6f6f6;
-    text-align: center;
+        text-align: center;
 
 }
 .about_bottom div{
