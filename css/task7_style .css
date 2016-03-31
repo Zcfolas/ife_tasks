@@ -7,13 +7,13 @@
 }
 .logo img{
   width: 30px;height: 30px;
-  margin-top: 6px;margin-right: 5px;
+  margin-top: 5px;margin-right: 5px;
   
 }
 .logo{
   float: left;
   margin-left: 70px;
-  font-size: 30px;
+  font-size: 25px;
   color: #393a3a;
   font-family: "黑体";
   margin-top: 10px;
@@ -227,4 +227,55 @@
 .about_center ul{
 	position: absolute;
 	top: 36px;left: 270px;
+}
+.about_bottom{
+	height: 605px;
+	background-color: #f6f6f6;
+
+
+}
+.about_bottom div{
+	width: 220px;height: 390px;
+	display: inline-block;
+	margin-right: 35px;
+	margin-top: 100px;
+	overflow: hidden;
+
+    
+}
+
+.about_bottom img{
+	width: 200px;height: 310px;
+	text-align: center;
+}
+.about_bottom span{
+	background-color: #ffffff;
+	padding: 14px 8px;
+	border: 1px solid #e1dedc;
+	margin-bottom: 12px;
+	height: 309px;
+	float: left;	
+
+}
+.about_bottom h4{
+	font-size: 14px;
+	margin-bottom: 9px;
+	color: #524c4a;
+	text-align: center;
+	width: 217px;
+}
+.about_bottom p{
+	font-size: 12px;
+	color: #7f7773;
+	text-align: center;
+}
+.about_bottom div:nth-of-type(2) h4{
+	font-size: 20px;
+	letter-spacing: 10px;
+	margin-left: 10px;
+	
+}
+.about_bottom div:nth-of-type(1) {
+    margin-left: 24%
+	
 }
