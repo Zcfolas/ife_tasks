@@ -435,3 +435,114 @@
 .show-bottom .bottom-right img{
 	margin-top: 250px;
 }
+.join{
+	height: 750px;
+}
+.join .join-title{
+	text-align: center;
+	height: 300px;
+	overflow: hidden;
+
+}
+.join .join-title h4{
+	font-size: 21px;
+	color: #323333;
+	font-family: "华文仿黑";
+	margin-top: 115px;
+}
+.join .join-title hr{
+	width: 2em;
+	border: 2px solid #e74f4d;
+	margin: 8px auto;
+	transition: all 0.2s;
+}
+.join .join-title hr:hover{
+	width: 12em;
+}
+.join .join-title h5{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #aaaaaa;
+	margin-top: 10px;
+}
+.join-main{
+	display: block;
+	width: 1070px;
+	margin: 0 auto;
+
+
+}
+.main-left{
+    margin-top: 15px;
+    width: 370px;
+    display: inline-block;
+    float: left;
+    
+
+}
+.main-left h6{
+	font-size: 14px;
+	color: #231815;
+	font-family: "华文仿黑";
+}
+.main-left p{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #4f4947;
+    margin-top: 30px;
+}
+.main-left h5{
+   font-size: 12px;
+	font-family: "微软雅黑";
+	color: #4f4947;
+   text-indent: 18em;
+   cursor: pointer;
+}
+.main-right{
+	display: inline-block;
+	width: 700px;
+    
+}
+.main-right input{
+	height: 40px;width: 310px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #edecee;
+	border: none;
+	margin-top: 15px;margin-left: 20px;
+	transition: all 0.4s ease-in-out;
+	text-indent: 1em;
+    
+}
+.main-right input:focus{
+	background-color: white;
+}
+.main-right ::-webkit-input-placeholder
+ { 
+  color: #231815;
+}
+.main-right textarea{
+	width: 645px;height: 160px;
+	background-color: #edecee;
+	margin-top: 15px;margin-left: 20px;
+	border: none;
+	resize: none;
+	 transition: all 0.4s ease-in-out;
+	 text-indent: 1em;
+}
+.main-right textarea:hover{
+	border-radius: 5px;
+    box-shadow: 1px 1px 1px #B3AFAC,-1px -1px 1px #B3AFAC;
+}
+.main-right textarea:focus{
+	background-color: white;
+}
+.main-right input:nth-child(6){
+	cursor: pointer;
+	margin-left: 25%;
+}
+
+.main-right input:hover{
+	border-radius: 5px;
+    box-shadow: 1px 1px 1px #B3AFAC,-1px -1px 1px #B3AFAC;
+}
