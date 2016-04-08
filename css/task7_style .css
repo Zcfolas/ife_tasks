@@ -527,8 +527,8 @@
 	margin-top: 15px;margin-left: 20px;
 	border: none;
 	resize: none;
-	 transition: all 0.4s ease-in-out;
-	 text-indent: 1em;
+	transition: all 0.4s ease-in-out;
+	text-indent: 1em;
 }
 .main-right textarea:hover{
 	border-radius: 5px;
@@ -545,4 +545,99 @@
 .main-right input:hover{
 	border-radius: 5px;
     box-shadow: 1px 1px 1px #B3AFAC,-1px -1px 1px #B3AFAC;
+}
+
+.message{
+	height: 360px;
+	background-color: #32353e;
+	text-align: center;
+	overflow: hidden;
+}
+.message h2{
+	color: #ffffff;
+	font-size: 21px;
+	font-family: "微软雅黑";
+	margin-top: 90px;
+}
+.message h5{
+	color: #fff;
+	font-size: 12px;
+	font-family: "宋体";
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.message input{
+	height: 40px;width: 430px;
+	background-color: #dfdfdf;
+	border: none;
+	transition: all 0.4s;
+
+}
+.message input:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #B3AFAC,-1px -1px 1px #B3AFAC;
+}
+.message input:focus{
+	background-color: #fff;
+}
+.message button{
+	height: 40px;width: 80px;
+	border: none;
+	background-color: #6f7178;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+.message button:hover{
+	border-radius: 5px;
+}
+.message ul{
+	width: 250px;
+    margin: 0 auto;
+}
+.message ul li{
+	float: left;
+	width: 30px;height: 30px;
+	list-style: none;
+	margin-left: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+.message ul li:hover{
+    opacity: 1;
+}
+.message ul li:nth-child(1){
+	background-image: url("../image/qq.png");
+}
+.message ul li:nth-child(2){
+	background-image: url("../image/weibo.png");
+	background-repeat: no-repeat;
+}
+.message ul li:nth-child(3){
+	background-image: url("../image/twitter.png");
+	background-repeat: no-repeat;
+}
+.message ul li:nth-child(4){
+	background-image: url("../image/facebook.png");
+	background-repeat: no-repeat;
+}
+.footer-bottom{
+	height: 60px;
+	background-color: #2f2f38;
+}
+.footer-bottom h4{
+	color: #fff;
+	font-size: 12px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 5%
+}
+.footer-bottom p{
+	color: #fff;
+	font-size: 12px;
+	float: right;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-right: 5%;
 }
